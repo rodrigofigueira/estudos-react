@@ -1,0 +1,8 @@
+.TabelaProdutos{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.TabelaProdutos .Par{
+    background-color: #ddd;
+}
