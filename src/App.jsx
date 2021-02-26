@@ -1,4 +1,3 @@
-/* eslint-disable import/no-anonymous-default-export */
 import './App.css';
 import React from 'react';
 import Primeiro from './components/basicos/Primeiro';
@@ -15,6 +14,8 @@ import UsuarioInfo from './components/condicional/UsuarioInfo'
 import DiretaPai from './components/comunicacao/DiretaPai'
 import IndiretaPai from './components/comunicacao/IndiretaPai'
 import Input from './components/formulario/Input'
+import Contador from './components/contador/Contador'
+import Mega from './components/mega/Mega'
 
 export default _ =>
 
@@ -23,6 +24,14 @@ export default _ =>
         <h1>Fundamentos React</h1>
         
         <div className="Cards">
+
+            <Card titulo="#14 - Numeros Mega Sena" color="#2D3033">
+                <Mega qtd={6}/>
+            </Card>
+
+            <Card titulo="#13 - Contador" color="#2B2301">
+                <Contador numeroInicial={1}/>
+            </Card>
 
             <Card titulo="#12 - Componente Controlado (Input)" color="#9B539C">
                 <Input />
